@@ -9,3 +9,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#counter{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    width: auto;
+    height: 100px;
+}
+#number{
+    width: 10px;
+    height: 10px;
+    align-items: center;
+}

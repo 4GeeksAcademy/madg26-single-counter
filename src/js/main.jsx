@@ -10,9 +10,15 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+let segundos = 0;
+setInterval(() => {
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <Home seconds= {segundos}/>
+    </React.StrictMode>,)
+    segundos = segundos + 1;
+}, 1000)
+
+
+
