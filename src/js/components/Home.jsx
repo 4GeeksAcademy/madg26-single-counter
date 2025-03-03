@@ -9,7 +9,7 @@ const Home = ({ seconds }) => {
 	console.log(numeros);
 
 	return (
-		<div className="d-flex justify-content-center mt-5 bg-dark">
+		<div className="d-flex justify-content-center mt-5" id="contenedor">
 			<SecondsCounter
 				digito= <i className="fa-regular fa-clock"></i> />
 			{
